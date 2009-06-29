@@ -1,0 +1,12 @@
+Mon Jun 29 16:36:56 EDT 2009
+
+This repository represents my first crack at using binaries and the bit syntax.
+I chose to read DHCP entries from a libpcap file because the format is well documented
+and great tools exist to make pcap files, as well as determine their
+contents (wireshark).
+
+I was working on a project involving DHCP and decided that this would be a good way 
+for me to refresh my memory about DHCP and expand my erlang chops.  This code is
+just for play.  I'm new to erlang.
+
+

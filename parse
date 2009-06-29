@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ $# == 0 ]; then
+    echo "USAGE parse pcapfile"
+    exit 1
+fi
+
+erl -pz build -run pcap parse $1 -run init stop -noshell
+

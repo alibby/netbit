@@ -98,7 +98,7 @@ read_record(Pcap) ->
 read_header(IO, Swapped) -> 
 	Header = case file:read(IO,24) of
 		{ok,Data} -> Data;
-		{error, badarg} -> throw({ badard, "IO must be an io handle" });
+		{error, badarg} -> throw({ badarg, "IO must be an io handle" });
 		eof -> eof
 	end,
 	
